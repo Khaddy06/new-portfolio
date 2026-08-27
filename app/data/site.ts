@@ -57,7 +57,7 @@ export const FEATURED_PROJECTS: Project[] = [
     liveUrl: "https://bikehtravel.netlify.app"
   },
   {
-    title: "Building a Custom WordPress Theme",
+    title: "E-commerce website",
     description:
       "Created a custom WordPress theme tailored to specific branding and feature requirements.",
     techStack: "WordPress, PHP, HTML, CSS, JavaScript",
