@@ -35,11 +35,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const EXPERIENCE_TABS = [
-  "Upstatement",
-  "Apple",
-  "Scout Studio",
-  "Starry",
-  "MullenLowe",
+  "Personal Projects",
+  // "Apple",
+  // "Scout Studio",
+  // "Starry",
+  // "MullenLowe",
 ] as const;
 
 export const FEATURED_PROJECTS: Project[] = [

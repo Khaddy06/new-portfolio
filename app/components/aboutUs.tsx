@@ -24,8 +24,7 @@ function About() {
           <strong className="text-[#64ffda]">React</strong>,{" "}
           <strong className="text-[#64ffda]">TypeScript</strong>, and{" "}
           <strong className="text-[#64ffda]">Tailwind CSS</strong>, and I love
-          using tools like <strong className="text-[#64ffda]">Figma</strong> and{" "}
-          <strong className="text-[#64ffda]">Framer Motion</strong> to bring
+          using tools like <strong className="text-[#64ffda]">Figma</strong> and{" "} to bring
           interfaces to life.
         </p>
 
