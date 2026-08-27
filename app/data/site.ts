@@ -59,8 +59,8 @@ export const FEATURED_PROJECTS: Project[] = [
   {
     title: "E-commerce website",
     description:
-      "Created a custom WordPress theme tailored to specific branding and feature requirements.",
-    techStack: "WordPress, PHP, HTML, CSS, JavaScript",
+      "A responsive e-commerce website for browsing products and managing online purchases.",
+    techStack: "JavaScript, React, Vite, Tailwind CSS",
      liveUrl: "https://prismatic-taffy-5ace4e.netlify.app/",
    
   },
@@ -74,18 +74,18 @@ export const MORE_PROJECTS: Project[] = [
     techStack: "Node.js, Express, MongoDB",
      liveUrl :"https://kaleidoscopic-melomakarona-55e346.netlify.app/auth/login"
   },
-  {
-    title: "React Profile",
-    description:
-      "Built an online version of a resume as a weekend React project for learning and experimentation.",
-    techStack: "React, CSS",
-    liveUrl: "",
-  },
-  {
-    title: "NU Women in Tech",
-    description:
-      "Led a redesign and rebuild of the club website while serving as web chair.",
-    techStack: "Jekyll, Bootstrap",
-    liveUrl: "",
-  },
+  // {
+  //   title: "React Profile",
+  //   description:
+  //     "Built an online version of a resume as a weekend React project for learning and experimentation.",
+  //   techStack: "React, CSS",
+  //   liveUrl: "",
+  // },
+  // {
+  //   title: "NU Women in Tech",
+  //   description:
+  //     "Led a redesign and rebuild of the club website while serving as web chair.",
+  //   techStack: "Jekyll, Bootstrap",
+  //   liveUrl: "",
+  // },
 ];
