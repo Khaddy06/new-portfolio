@@ -14,6 +14,7 @@ export type Project = {
   techStack: string;
   githubUrl?: string;
   liveUrl?: string;
+  
 };
 
 export const CONTACT_EMAIL = "harameedey06@gmail.com";
@@ -43,22 +44,25 @@ export const EXPERIENCE_TABS = [
 
 export const FEATURED_PROJECTS: Project[] = [
   {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Integrated Algolia Search with WordPress Multisite to improve discoverability across multiple sites.",
-    techStack: "Algolia Search, WordPress Multisite, PHP",
+    title: "Chat Application",
+    description:"A real-time chat app for seamless messaging with a clean, responsive interface",
+    techStack: "Typescript, React, Next.js, Tailwind CSS",
+    liveUrl: "https://delightful-bubblegum-b170e3.netlify.app/login"
   },
   {
-    title: "Creating a Responsive Portfolio Website",
+    title: "Travel App",
     description:
-      "Built a responsive portfolio website to showcase projects and frontend development capabilities.",
-    techStack: "HTML, Tailwind CSS, JavaScript, React",
+      "A travel app designed to help users discover destinations and plan their trips.",
+    techStack: "TypeScript, React, Next.js, Tailwind CSS",
+    liveUrl: "https://bikehtravel.netlify.app"
   },
   {
     title: "Building a Custom WordPress Theme",
     description:
       "Created a custom WordPress theme tailored to specific branding and feature requirements.",
     techStack: "WordPress, PHP, HTML, CSS, JavaScript",
+     liveUrl: "https://prismatic-taffy-5ace4e.netlify.app/",
+   
   },
 ];
 
@@ -68,17 +72,20 @@ export const MORE_PROJECTS: Project[] = [
     description:
       "Built a RESTful API to support communication between frontend and backend systems.",
     techStack: "Node.js, Express, MongoDB",
+     liveUrl :"https://kaleidoscopic-melomakarona-55e346.netlify.app/auth/login"
   },
   {
     title: "React Profile",
     description:
       "Built an online version of a resume as a weekend React project for learning and experimentation.",
     techStack: "React, CSS",
+    liveUrl: "",
   },
   {
     title: "NU Women in Tech",
     description:
       "Led a redesign and rebuild of the club website while serving as web chair.",
     techStack: "Jekyll, Bootstrap",
+    liveUrl: "",
   },
 ];

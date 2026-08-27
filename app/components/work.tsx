@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CiFolderOn } from "react-icons/ci";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { FEATURED_PROJECTS, MORE_PROJECTS, Project } from "../data/site";
+import Link from "next/link";
 
 function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
@@ -26,7 +27,9 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
                     />
                   </a>
                 )}
+                
                 {project.liveUrl && (
+                 
                   <a href={project.liveUrl} target="_blank" rel="noreferrer">
                     <FiExternalLink
                       size={20}
@@ -36,6 +39,7 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
                 )}
               </div>
             </div>
+          
             <h3 className="md:text-xl text-base font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
               {project.title}
             </h3>
@@ -43,11 +47,16 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
               {project.description}
             </p>
           </div>
+          
           <p className="text-[#8892b0] text-xs font-semibold">
             {project.techStack}
           </p>
         </div>
+        
+         
       ))}
+     
+     
     </div>
   );
 }
