@@ -28,13 +28,13 @@ function Home() {
             </a>
           </div>
 
-          <div className="lg:col-span-4 flex justify-center lg:justify-end">
+          {/* <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <img
               src="/profile.jpg"
               alt="Sanni Khadijah"
               className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover border-2 border-[#64ffda] shadow-[0_0_24px_rgba(100,255,218,0.2)]"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

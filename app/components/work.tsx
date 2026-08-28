@@ -1,10 +1,8 @@
 "use client"
-
 import { useState } from "react";
-import { CiFolderOn } from "react-icons/ci";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { CiFolderOn, CiLink } from "react-icons/ci";
+import {  FiGithub } from "react-icons/fi";
 import { FEATURED_PROJECTS, MORE_PROJECTS, Project } from "../data/site";
-import Link from "next/link";
 
 function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
@@ -17,7 +15,7 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
         >
           <div>
             <div className="flex justify-between mb-4">
-              <CiFolderOn className="text-[#64ffda] text-4xl" />
+              <CiFolderOn className="text-[#64ffda] text-2xl" />
               <div className="flex gap-5">
                 {project.githubUrl && (
                   <a href={project.githubUrl} target="_blank" rel="noreferrer">
@@ -31,8 +29,8 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
                 {project.liveUrl && (
                  
                   <a href={project.liveUrl} target="_blank" rel="noreferrer">
-                    <FiExternalLink
-                      size={20}
+                    <CiLink
+                      size={26}
                       className="text-[#ccd6f6] hover:text-[#64ffda]"
                     />
                   </a>
